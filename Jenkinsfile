@@ -36,7 +36,7 @@ pipeline
             {
                 script
                 {
-                    println "Usuario que ejecuta la tarea: ${env.USER_NAME}"
+                    println "Usuario que ejecuta la tarea: ${env.USERNAME}"
                 }
             }
         }
